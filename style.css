@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+body {
+    text-align: center;
+    background-color: #4F6367;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.Box {
+    cursor: pointer;
+    height: 17vmin;
+    width: 17vmin;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    font-size: 7vmin;
+    color: #EDD382;
+    background-color: #000;
+    background: linear-gradient(to right bottom, black, rgba(107, 107, 107, 0.736));
+}
+
+.reset-btn {
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    /* box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4); */
+    background: linear-gradient(to right bottom, #25395d, #5b7497c7);
+}
+
+.new-btn {
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to right bottom, #255d45, #86bb99);
+}
+
+.msg {
+    font-size: 5vmin;
+    background: linear-gradient(to right bottom, #23324e, #6b87aefa);
+    border: none;
+    border-radius: 1rem;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hide {
+    display: none;
+}
